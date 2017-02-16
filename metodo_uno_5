@@ -1,0 +1,12 @@
+public class metodo_uno_5 {
+
+	public static void main(String[] args) {
+		//  sin retorno y sin parametros
+		imprimir();
+
+	}public static void imprimir(){
+		System.out.println("hola mundo");
+		
+	}
+
+}
