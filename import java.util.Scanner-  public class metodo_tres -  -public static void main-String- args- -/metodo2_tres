@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class metodo2_tres {
+
+	public static void main(String[] args) {
+		// con parametros y sin retorno
+		Scanner sc = new Scanner(System.in);
+		int a,b,c,d;
+		System.out.println("ingrese un numero:");
+		a = sc.nextInt();
+		System.out.println("ingrese otro numero:");
+		b = sc.nextInt();
+		System.out.println("ingrese otro numero:");
+		c = sc.nextInt();
+		System.out.println("ingrese otro numero:");
+		d = sc.nextInt();
+	promedio(a,b,c,d);
+	}public static void promedio(int a,int b,int c, int d){
+		int prom; 
+		prom = ((a+b+c+d)/4);
+		System.out.println("el promedio es: "+prom);
+	}
+
+}
