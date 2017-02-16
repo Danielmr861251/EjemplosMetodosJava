@@ -1,0 +1,13 @@
+public class metodo_uno_3 {
+
+	public static void main(String[] args) {
+		//  sin retorno y sin parametros
+		multiplicar();
+		
+	}public static void multiplicar(){
+		int y=2,z=3;
+		int multi = y*z;
+		System.out.println("la multiplicacion es: "+multi);
+	}
+
+}
