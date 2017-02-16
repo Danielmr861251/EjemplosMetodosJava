@@ -1,0 +1,16 @@
+public class metodo_uno {
+
+	public static void main(String[] args) {
+		// sin retorno y sin parametros
+	sumar ();
+	}
+	public static void sumar(){
+		int x = 1,y = 2;
+		int suma = x + y;
+	
+		System.out.println("la suma es: "+suma);
+		
+
+	}
+
+}
