@@ -1,0 +1,14 @@
+public class metodo_dos_2 {
+
+	public static void main(String[] args) {
+		//  sin retorno y sin parametros
+		restar();
+
+	}public static void restar(){
+		int a = 10, b=5;
+		int restar = a-b;
+		System.out.println("la restar es: "+restar);
+		
+	}
+
+}
