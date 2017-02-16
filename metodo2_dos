@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class metodo2_dos {
+
+	public static void main(String[] args) {
+		// con parametros y sin retorno
+		Scanner sc = new Scanner(System.in);
+		int a,b;
+		System.out.println("ingrese un numero:");
+		a = sc.nextInt();
+		System.out.println("ingrese otro numero:");
+		b = sc.nextInt();
+	multiplicar(a,b);
+	}public static void multiplicar(int a,int b){
+		int multi; 
+		multi = a*b;
+		System.out.println("el producto es: "+multi);
+
+	}
+
+}
