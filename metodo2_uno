@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class metodo2_uno {
+
+	public static void main(String[] args) {
+		//sin retorno y con parametros
+	Scanner sc = new Scanner(System.in);
+		int a,b;
+		System.out.println("ingrese un numero:");
+		a = sc.nextInt();
+		System.out.println("ingrese otro numero:");
+		b = sc.nextInt();
+	sumar(a,b);
+	}public static void sumar(int a,int b){
+		int suma; 
+		suma = a+b;
+		System.out.println("la suma es: "+suma);
+		
+	}
+
+}
