@@ -1,0 +1,15 @@
+import java.util.*;
+public class metodo2_cuatro {
+
+	public static void main(String[] args) {
+		// con parametro y sin retorno
+		Scanner sc = new Scanner(System.in);
+		String cad;
+		System.out.println("ingrese su nombre");
+		cad = sc.nextLine();
+		saludo(cad);
+	}
+		public static void saludo(String cad){
+			System.out.println("hola "+cad);
+		}
+}
