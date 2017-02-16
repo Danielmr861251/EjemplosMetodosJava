@@ -1,0 +1,14 @@
+public class metodo_uno_4 {
+
+	public static void main(String[] args) {
+		//  sin retorno y sin parametros
+		dividir();
+
+	}public static void dividir(){
+		int x = 100, a = 2;
+		int divi = x/a;
+		System.out.println("la division es: "+divi);
+		
+	}
+
+}
