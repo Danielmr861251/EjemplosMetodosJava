@@ -1,0 +1,17 @@
+import java.util.*;
+public class metodo2_cinco {
+
+	public static void main(String[] args) {
+		// con parametro y sin retorno
+		Scanner sc = new Scanner(System.in);
+		String resp;
+		System.out.println("lana sube lana baja.... que es?");
+		resp = sc.nextLine();
+		bien(resp);
+		
+	}public static void bien(String resp){
+		System.out.println("usted ingreso: "+resp);
+		
+	}
+
+}
